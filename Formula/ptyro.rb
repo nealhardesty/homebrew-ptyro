@@ -16,23 +16,23 @@ class Ptyro < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/nealhardesty/ptyro/releases/download/v0.0.97/ptyro-0.0.97-aarch64-apple-darwin.tar.gz"
-      sha256 "2101120700a99acf4238cf191948e6eac5b5d3f8fdc77c5bf3093a157dcbe8a3"
+      url "https://github.com/nealhardesty/ptyro/releases/download/v0.0.99/ptyro-0.0.99-aarch64-apple-darwin.tar.gz"
+      sha256 "b147015bb9bda1de5aef949fde4303bdc49c5ac80e198f2bd089f4d6542ff081"
     end
     on_intel do
-      url "https://github.com/nealhardesty/ptyro/releases/download/v0.0.97/ptyro-0.0.97-x86_64-apple-darwin.tar.gz"
-      sha256 "d2c73b04fd601d2e86caa2a1ad37717bc947a4251a573a384176a4908bd24413"
+      url "https://github.com/nealhardesty/ptyro/releases/download/v0.0.99/ptyro-0.0.99-x86_64-apple-darwin.tar.gz"
+      sha256 "24ff11ac6ac43a9794db52ac0d7aa04412e77bbcc57c03082549497e8feb0098"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/nealhardesty/ptyro/releases/download/v0.0.97/ptyro-0.0.97-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "25206493595d814753c89e9b12e9c1c13c27167dfc41ca95b2114f05d10e2e0f"
+      url "https://github.com/nealhardesty/ptyro/releases/download/v0.0.99/ptyro-0.0.99-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "6e0c91aabb3d641186fdb1f87bee09fa87921171fb4a64f6e5ff49595a647004"
     end
     on_intel do
-      url "https://github.com/nealhardesty/ptyro/releases/download/v0.0.97/ptyro-0.0.97-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "3242a3011f80dc633ef02868b18ee750727214094e66086006a3ef3d098595f3"
+      url "https://github.com/nealhardesty/ptyro/releases/download/v0.0.99/ptyro-0.0.99-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "83f453c674fb209dd08f537deb9c8bd8622bbb715b0b19acae27667883f2b76e"
     end
   end
 
